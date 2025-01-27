@@ -1,0 +1,207 @@
+import React, { useContext, useState } from "react";
+import { Form, InputGroup } from "react-bootstrap";
+import Link from "next/link";
+import { PublicLayout } from "../Layout/PublicLayout";
+import { signInWithEmailAndPassword, signOut } from "firebase/auth";
+import { auth, db } from "../../FirebaseConfig";
+import { collection, getDocs } from "firebase/firestore";
+import { CartContext } from "../_app";
+import Swal from "sweetalert2";
+
+const Login = () => {
+  const [itemList, setItemList] = useState([]);
+  const [validated, setValidated] = useState(false);
+  const { cart, setCart } = useContext(CartContext);
+  const [inputEmailValue, setInputEmailValue] = useState('');
+  const [inputPasswordValue, setInputPasswordValue] = useState('');
+  const [passCheckBox, setPassCheckBox] = useState('password');
+  const [user, setUser] = useState(null);
+  const [isChecked, setIsChecked] = useState(true);
+
+  const showCart = () => { // this is a little pop up
+    Swal.fire({
+      icon: "success",
+      title: "Login Confirmed",
+      showConfirmButton: false,
+    });
+  };
+
+  const wrongPass = () => {// this is a little pop up
+    Swal.fire({
+      icon: "error",
+      title: "Invalid Credential",
+      showConfirmButton: false,
+    });
+  };
+
+  const handleOnChange = async () => { // checks if the checkbox is checked
+
+    setIsChecked(!isChecked);
+
+  };
+
+  const passHide = () => { // if checkbox is checked then it will show password to the user otherwise it hide it
+    if(isChecked){
+      setPassCheckBox("text")
+      console.log("x")
+    }else{
+      setPassCheckBox("password")
+      console.log("z")
+    }
+  }
+
+  const emailChange = (event) => { // simply detects email input value change
+    setInputEmailValue(event.target.value);
+  };
+
+  const passwordChange = (event) => { // same as email but for password
+    setInputPasswordValue(event.target.value);
+  };
+
+  auth.onAuthStateChanged((user) => { // checks if the user is logged in or not
+    if (user) {
+
+    } else {
+
+    }
+  });
+
+  const redirect = async () => { // sends the user to the homepage once logged in
+    await showCart();
+    window.location.href = "https://www.diasspora.co.uk";
+  };
+
+  const UserCart = async () => { // grabs cart items from users account
+
+    const itemsColRef = collection(db, "customers");
+    const newItemList = [];
+    try {
+      const snapshot = await getDocs(itemsColRef);
+      snapshot.docs.forEach((doc) => {
+        if (doc.id === user) {
+
+          doc.data().cart.forEach((item) => {
+
+            if (item.id !== "ger42" && item.id !== "123e4") {
+              newItemList.push(item);
+            }
+          });
+        }
+      });
+      setItemList(newItemList);
+    } catch (error) {
+      alert(error.message);
+    }
+  };
+
+  const loginEmailPassword = async (e) => { // this will log the user in
+    e.preventDefault();
+    try {
+      const userCredential = await signInWithEmailAndPassword(auth, inputEmailValue, inputPasswordValue);
+      setUser(auth.currentUser.uid);
+      await UserCart();
+      await redirect();
+    } catch (error) {
+      console.log(error);
+      await wrongPass();
+    }
+  };
+
+  const handleSubmit = async (event) => { // this controls the submit form so that if the user clicks login and details are wrong it wont redirect them
+    const form = event.currentTarget;
+    if (form.checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+    setValidated(true);
+    const newProduct = itemList?.find((pd) => pd.id === id);
+    setCart([...cart, { ...newProduct, quantity: 1 }]);
+  };
+
+  const breadcrumbsData = [
+    {
+      label: "Home",
+      path: "/",
+    },
+    {
+      label: "Login",
+      path: "#",
+    },
+  ];
+
+  return (
+    <PublicLayout breadcrumb={breadcrumbsData} breadcrumbTitle="Login">
+      <div className="container">
+        <div className="loginpage">
+          <div>
+            <div>
+              <h3 className="text-center fw-bolder">Log in to your account</h3>
+            </div>
+            <div className="login p-3 p-sm-4 card border">
+              <Form noValidate validated={validated} onSubmit={handleSubmit}>
+                <Form.Group md="4" className="mb-3" controlId="validationCustomUsername">
+                  <Form.Label className=" f-16 ">Email</Form.Label>
+                  <InputGroup hasValidation>
+                    <Form.Control
+                      onChange={emailChange}
+                      type="text"
+                      aria-describedby="inputGroupPrepend"
+                      required
+                    />
+                    <Form.Control.Feedback type="invalid">
+                      Please Enter your account name
+                    </Form.Control.Feedback>
+                  </InputGroup>
+                  <small id="emailHelp" className="form-text text-muted">
+                    We will never share your email with anyone else.
+                  </small>
+                </Form.Group>
+                <Form.Group md="4" className="mb-3" controlId="validationCustomUsername">
+                  <Form.Label className="f-16">Password</Form.Label>
+                  <InputGroup hasValidation>
+                    <Form.Control
+                      onChange={passwordChange}
+                      type={passCheckBox}
+                      aria-describedby="inputGroupPrepend"
+                      required
+                    />
+                    <Form.Control.Feedback type="invalid">
+                      Please enter your password.
+                    </Form.Control.Feedback>
+                  </InputGroup>
+                </Form.Group>
+                <InputGroup className="mb-3 mt-2">
+                  <InputGroup.Checkbox onClick={passHide} onChange={handleOnChange} aria-label="Checkbox for following text input" className="m-0" />
+                  <label className="checkbox ">Show Password</label>
+                </InputGroup>
+                <button type="button" className="main-button">
+                  <Link href="/">
+                    <a>Back</a>
+                  </Link>
+                </button>
+                <button onClick={loginEmailPassword} className="mb-3 main-button float-xl-end float-lg-end float-md-end">
+                  <a className=""> Login </a>
+                </button>
+              </Form>
+              <div className="pass_acc border-top f-16 pt-3">
+                <span className="forgot_password ">
+                  <Link href="/ForgotPassword/forgotPassword">
+                    <a>Forgot your password? </a>
+                  </Link>
+                </span>
+                <span className="no_account float-xl-end float-lg-end float-md-end">
+                  No account?
+                  <Link href="/Authentication/register">
+                    <a> Create one here</a>
+                  </Link>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </PublicLayout>
+  );
+};
+
+export default Login;
