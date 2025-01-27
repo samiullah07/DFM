@@ -1,0 +1,145 @@
+/* ========================================== contact page ==========================================*/
+
+.contact-us-btn button {
+  padding: 6px 10px;
+  background-color: #6d9900;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.contact-us-btn button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.contact-page .form-control {
+  border: 1px solid #d4d4e1;
+  background-color: #fafafa;
+}
+.our_off li svg {
+  color: #6d9900;
+  margin-right: 10px;
+}
+.get_touch .get_in {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Contact Form Css */
+#error_message {
+  background: #f8d7da;
+}
+#success_message {
+  background-color: #6d9900;
+  color: #fff;
+}
+/* Contact Form Css End  */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #reviewForm label {
+    font-size: 16px;
+  }
+  #reviewForm .form-control {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  #reviewForm .form-control::placeholder {
+    font-size: 15px;
+  }
+  .our_off h4,
+  .buss_hou h4,
+  .get_touch h4 {
+    font-size: 24px;
+  }
+  .our_off li,
+  .buss_hou li {
+    font-size: 14px;
+  }
+  .get_touch .get_in {
+    font-size: 13px;
+  }
+  .our_off,
+  .buss_hou {
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #reviewForm label {
+    font-size: 16px;
+  }
+  #reviewForm .form-control {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  #reviewForm .form-control::placeholder {
+    font-size: 15px;
+  }
+  .our_off h4,
+  .buss_hou h4,
+  .get_touch h4 {
+    font-size: 24px;
+  }
+  .our_off li,
+  .buss_hou li {
+    font-size: 14px;
+  }
+  .get_touch .get_in {
+    font-size: 13px;
+  }
+  .our_off,
+  .buss_hou {
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #reviewForm label {
+    font-size: 14px;
+  }
+  #reviewForm .form-control {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  #reviewForm .form-control::placeholder {
+    font-size: 12px;
+  }
+  .our_off h4,
+  .buss_hou h4,
+  .get_touch h4 {
+    font-size: 20px;
+  }
+  .our_off li,
+  .buss_hou li {
+    font-size: 14px;
+  }
+  .get_touch .get_in {
+    font-size: 13px;
+  }
+  .our_off,
+  .buss_hou {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  #reviewForm label {
+    font-size: 14px;
+  }
+  #reviewForm .form-control {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  #reviewForm .form-control::placeholder {
+    font-size: 12px;
+  }
+  .our_off h4,
+  .buss_hou h4,
+  .get_touch h4 {
+    font-size: 20px;
+  }
+  .our_off li,
+  .buss_hou li {
+    font-size: 13px;
+  }
+  .get_touch .get_in {
+    font-size: 13px;
+  }
+}

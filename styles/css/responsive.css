@@ -1,0 +1,1110 @@
+@media (max-width: 1350px) {
+  /*........ SHOP .........*/
+  .shop_sidebar h2 {
+    font-size: 18px;
+  }
+  .css-1hskriy {
+    width: 180px;
+  }
+  .shop_sidebar .s_filter {
+    margin-top: 10px;
+  }
+  .clear_btn {
+    margin-top: 20px;
+  }
+  .shop_sidebar {
+    margin-bottom: 15px;
+  }
+  /*........ End SHOP .........*/
+
+  /* .............. Blog ...........  */
+  .blog_subtitle {
+    font-size: 12px;
+  }
+  .sh_page .card-title h2 a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .sh_page .card-title h2 {
+    line-height: 6px;
+  }
+  .bl-sidebar .media {
+    padding-bottom: 0 !important;
+  }
+  .bl-sidebar p {
+    font-size: 12px;
+  }
+  .bl-sidebar .media-body h6 {
+    font-size: 13px;
+  }
+
+  .bl_cat li {
+    padding: 3px 0;
+  }
+  .row.sh_page {
+    padding-top: 12px !important;
+    padding-bottom: 10px;
+  }
+  /* --- left-right blog ---  */
+
+  /* .............. end Blog ...........  */
+
+  /*........ SHOP .........*/
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: unset !important;
+    width: 100% !important;
+  }
+  .openiconmenu svg {
+    height: 20px;
+    padding: 0;
+  }
+  .navbaricon li {
+    margin-left: 12px;
+  }
+  .navbaricon i {
+    font-size: 16px;
+  }
+  .main-menu li {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+  }
+  .home {
+    padding: 10px 0;
+  }
+  .counterDeal {
+    margin: 0 2px;
+    padding: 0 1px;
+    width: 37px;
+  }
+  .s-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  /* --------- home ---------------- */
+  /* --------- end home ---------------- */
+
+  /* .............. Blog ...........  */
+  .blog_subtitle i {
+    margin-right: 5px;
+  }
+  /* .............. end Blog ...........  */
+  /* .............. Aboutus  ...........  */
+  .about_testimonials .fw-bold {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .about_testimonials .text-muted {
+    font-size: 14px;
+  }
+  /* .............. end Aboutus  ...........  */
+  /* ..............  Aboutus  ...........  */
+  .singleBlog .card-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* .............. end Aboutus  ...........  */
+
+  /* .............. add to cart  ..............*/
+  .cart-table__img {
+    width: 110px;
+    height: 110px;
+  }
+  .ctable-info .title {
+    font-size: 18px;
+  }
+  .counter-link {
+    width: 35px;
+    height: 35px;
+  }
+
+  .cbottom-total {
+    padding: 15px 0px 60px 0px;
+  }
+  /*.............. end add to cart  ..............*/
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: unset !important;
+    width: 100% !important;
+  }
+  .logo {
+    margin-top: 3px;
+  }
+  .logo img {
+    height: 35px !important;
+    height: 35px !important;
+  }
+  .mobile .navbar {
+    margin: -7px;
+  }
+  .searchcanvas.offcanvas {
+    padding: 0 15%;
+  }
+  .openiconmenu .dropdown-menu {
+    padding: 10px !important;
+  }
+  .navbaricon i {
+    font-size: 18px;
+  }
+  /* ------------------------------------- home page -------------------------------------  */
+  .banner-Text {
+    /*top: 18%;*/
+    /*max-width: 10%;*/
+  }
+  .banner-Text h2 {
+    font-size: 40px;
+  }
+  .banner-Text p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  .main-button {
+    padding: 8px 12px;
+  }
+  .counterDeal {
+    padding: 0 1px;
+    margin: 0 1px;
+    width: 29px;
+
+    font-size: 12px;
+  }
+  .naturalProductText h5 {
+    font-size: 36px;
+  }
+  .naturalProductText h2 {
+    font-size: 50px;
+  }
+  .naturalProduct {
+    padding: 100px 0;
+  }
+  .button-group {
+    opacity: 1;
+    top: 60%;
+    position: unset;
+  }
+  .button-group {
+    margin-bottom: 5px;
+  }
+  .button-group svg {
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+  }
+  .ser-t {
+    margin-left: 5px;
+  }
+  .ser-t p {
+    max-width: 173px;
+  }
+  .service {
+    padding: 20px 0px;
+  }
+  .service h6 {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .m_service svg {
+    max-height: 28px;
+  }
+  .deal_of_container {
+    margin-top: 45px;
+    margin-bottom: 50px;
+  }
+  .date {
+    padding: 3px 10px;
+    font-size: 15px;
+    margin-bottom: 17px;
+  }
+  .categoryProductsBgColor {
+    padding-top: 45px;
+    padding-bottom: 50px;
+  }
+  .specialPro .nav-link {
+    font-size: 16px !important;
+  }
+  .tabdiv .nav-item {
+    padding: 0 13px !important;
+  }
+  .s-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .categoryTab .tabdiv .nav-tabs {
+    flex-wrap: inherit;
+    overflow-x: auto;
+  }
+  .foo_pay .fab,
+  .foo_pay .fas {
+    font-size: 25px;
+    margin-right: 7px;
+  }
+  .footer a {
+    line-height: 26px;
+    font-size: 14px;
+  }
+  /* ----- shop ------- */
+  .totalProduct {
+    font-size: 14px;
+  }
+  .custom-select {
+    width: 100%;
+  }
+  /* --------------------------------------- shop -------------------------------------------- */
+  .list-ul {
+    padding: 0;
+  }
+  .list-ul .price {
+    font-size: 20px;
+  }
+  /* ---------------- category ----------------  */
+  .firstcategory img {
+    padding: 0 25px !important;
+  }
+  /* ---------------- end category ----------------  */
+  /* .............. add to cart  ..............*/
+  .cart-table__img {
+    width: 90px;
+    height: 90px;
+    margin-right: 18px;
+  }
+  .ctable-info .title {
+    font-size: 15px;
+  }
+  .counter-link {
+    width: 35px;
+    height: 35px;
+  }
+
+  .cbottom-total {
+    padding: 15px 0px 60px 0px;
+  }
+  /*.............. end add to cart  ..............*/
+  .w_product_name a {
+    font-size: 16px;
+  }
+  .final_payment p {
+    font-size: 15px;
+  }
+  .final_payment .text-muted {
+    margin-bottom: 3px;
+  }
+  .final_payment span {
+    font-size: 13px;
+  }
+  /* -------------------------------- end check out -------------------------------- */
+}
+@media (max-width: 767px) {
+  /* .............. Portfolio  ...........  */
+
+  .portfolio .photo-list {
+    margin-left: -6px;
+    margin-right: -6px;
+  }
+
+  .portfolio .photo-item {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  /* .............. End Portfolio  ...........  */
+
+  /* .............. Aboutus  ...........  */
+  .c_des {
+    padding: 0;
+    margin: -15px 0;
+  }
+  .about-text h4 {
+    font-size: 20px;
+  }
+  /* .............. end Aboutus  ...........  */
+
+  /* -------------- single blog -------------- */
+  .blog_subtitle i {
+    display: none;
+  }
+  .blog_subtitle {
+    margin-bottom: 5px;
+  }
+  .border_l {
+    border-left: none !important;
+  }
+  /* -------------- single blog -------------- */
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: unset !important;
+    width: 100% !important;
+  }
+  .openiconmenu .dropdown-menu:hover {
+    display: block;
+  }
+
+  .main-menu > li .dropdown-menu {
+    opacity: 0;
+    display: block !important;
+    transform-origin: 0 0 0;
+    transform: scale(1, 0);
+    transition: all 500ms ease 0s;
+    margin-left: 0;
+    border: 1px solid transparent;
+    border-bottom: 3px solid #88b121;
+    border-radius: 0;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 8%);
+  }
+  .main-menu > li:hover .dropdown-menu {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+  /* .............. Blog ...........  */
+
+  .bl-sidebar .media-body h6 {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  /* .............. end Blog ...........  */
+
+  /* ---------------------------------- shop --------------------------------------------------- */
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .f-22 {
+    font-size: 18px;
+  }
+  .logo {
+    margin-top: 3px;
+  }
+  .logo img {
+    height: 35px !important;
+    height: 35px !important;
+  }
+  .mobile .navbar {
+    margin: -7px;
+  }
+  .dropdown-menu a {
+    font-size: 14px;
+    padding: 0;
+  }
+  .navbarAccordion .accordion-header {
+    margin: 5px 0;
+  }
+  .navbarAccordion .accordion-button {
+    font-size: 14px;
+    padding: 7px;
+  }
+  .navbaricon .accordion-button::after {
+    padding-top: 3px;
+  }
+  .searchcanvas.offcanvas {
+    padding: 0 10%;
+  }
+  .searchcanvas.offcanvas-top {
+    max-height: 70px;
+  }
+  .openiconmenu svg {
+    height: 18px;
+  }
+  .navbaricon li {
+    margin-left: 10px;
+  }
+  .openiconmenu .dropdown-menu {
+    padding: 10px !important;
+  }
+  .navbaricon i {
+    font-size: 16px;
+  }
+  .searchcanvas input {
+    height: 36px;
+  }
+  /* -------------------- home page -------------------- */
+  .banner-Text {
+    /*top: 10%;*/
+    /*margin-left: 50px;*/
+    /*max-width: 13%;*/
+  }
+  .banner-Text h2 {
+    font-size: 33px;
+  }
+  .banner-Text p {
+    margin: 10px 0;
+    max-width: 70%;
+  }
+  .main-button {
+    padding: 6px 14px;
+  }
+  .deal_of_container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .mainDealcard [class*="col-"] {
+    padding: 0 5px;
+    margin: 0px 0px;
+  }
+  .main_text {
+    margin: 0 5px;
+  }
+  .mainDealcard {
+    padding: 5px 0;
+  }
+  .counterDeal {
+    font-size: 13px;
+    width: 28px;
+    margin: 0 1px;
+    padding: 0 1px;
+  }
+  .button-group i {
+    width: 35px;
+    height: 35px;
+    margin: 0 3px;
+  }
+  .naturalProduct {
+    padding: 100px 0;
+  }
+  .naturalProductText h5 {
+    font-size: 36px;
+  }
+  .naturalProductText h2 {
+    font-size: 47px;
+  }
+  .testimonialSlidermainclass p {
+    font-size: 15px;
+  }
+  .button-group {
+    opacity: 1;
+    top: 60%;
+    position: unset;
+  }
+  .button-group {
+    margin-bottom: 5px;
+  }
+  .button-group svg {
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+  }
+  .ser-t p {
+    max-width: 410px;
+  }
+  .service {
+    padding: 10px 0px;
+  }
+  .categoryProductsBgColor {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .socials span {
+    height: 35px;
+    width: 35px;
+    padding-top: 3px;
+    margin: 3px 4px 0;
+  }
+  .first_footer {
+    padding: 5px 0;
+  }
+  .footer a {
+    line-height: 25px;
+    font-size: 14px;
+  }
+  .fth_foo .item_name2 {
+    display: none;
+  }
+  .fth_foo {
+    margin-top: 0;
+  }
+  .foo_pay .fab,
+  .foo_pay .fas {
+    font-size: 23px;
+    margin-right: 7px;
+  }
+  /* .............. Blog ...........  */
+
+  .left-blog-img {
+    height: 80px;
+    width: 150px;
+  }
+  /* .............. end Blog ...........  */
+  /* ---------------- portfolio --------------- */
+  .port-list li {
+    margin: 0 15px;
+  }
+  /* ---------------- end portfolio --------------- */
+  /* ---------------- category ----------------  */
+  .firstcategory img {
+    padding: 0 20px !important;
+  }
+  /* ---------------- end category ----------------  */
+
+  /* .............. Aboutus  ...........  */
+  .c_des {
+    text-align: center;
+  }
+
+  /* .............. end Aboutus  ...........  */
+  /* -------------- log in ------------------ */
+  .login,
+  #Registration {
+    width: 100%;
+  }
+  .login .forgot_password {
+    display: block;
+  }
+  /* -------------- end log in ------------------ */
+  /* -------------------------------- check out -------------------------------- */
+  #checkout .accordion-header button {
+    padding: 10px 17px;
+    font-size: 16px;
+  }
+  #checkout .nav-tabs .nav-link {
+    padding-right: 8px;
+    font-size: 14px;
+  }
+  #checkout .mb_1rem {
+    margin-bottom: 5px !important;
+    margin-top: 8px !important;
+  }
+  #checkout label {
+    margin-bottom: 2px;
+  }
+  #checkout .form-control {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  #checkout .input-group .form-check-input {
+    margin-top: 0;
+  }
+  #checkout .main-button {
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+  #checkout .payment input {
+    margin-top: 7px;
+  }
+  .final_payment {
+    margin-top: 15px;
+  }
+  .final_payment p {
+    font-size: 15px;
+  }
+  .final_payment .text-muted {
+    margin-bottom: 3px;
+  }
+  .final_payment span {
+    font-size: 14px;
+  }
+  #checkout .forgot_password {
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  /* -------------------------------- end check out -------------------------------- */
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  .styles_scroll-to-top__2A70v {
+    right: 20px !important;
+    bottom: 20px !important;
+  }
+  .logo {
+    margin-top: 3px;
+  }
+  .logo img {
+    height: 30px !important;
+    height: 30px !important;
+  }
+  .sp_header {
+    margin: 0 0 12px 0;
+  }
+  .bread-crumbs__link {
+    font-size: 14px;
+  }
+  .sp_header .hr_after::after {
+    margin: 0 10px;
+  }
+  .searchcanvas input {
+    height: 28px;
+    font-size: 14px;
+  }
+  .dropdown-menu a {
+    font-size: 14px;
+    padding: 0;
+  }
+  .navbarAccordion .accordion-header {
+    margin: 5px 0;
+  }
+  .navbarAccordion .accordion-button {
+    font-size: 14px;
+    padding: 7px;
+  }
+  .openiconmenu .dropdown-menu {
+    padding: 15px !important;
+  }
+  .navbaricon i {
+    font-size: 16px;
+  }
+  .navbaricon .accordion-button::after {
+    padding-top: 3px;
+  }
+  .navbaricon .accordion-button .accordion-body {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  /* ----------------- navbar ----------------------- */
+  .mobile-menu li {
+    padding: 3px 0;
+    font-size: 16px;
+  }
+  .mobile-menu .navbar-nav .dropdown-menu li {
+    font-size: 14px;
+  }
+  /* ----------------- end navbar ----------------------- */
+  .deal_of_container .heading,
+  .categoryProductsBgColor .heading {
+    position: relative;
+  }
+  .deal_of_container .headingimg,
+  .categoryProductsBgColor .headingimg {
+    position: absolute;
+  }
+  .heading {
+    margin: 10px 0;
+  }
+  .slick-prev,
+  .slick-next {
+    min-width: 30px;
+    min-height: 30px;
+  }
+  .slick-slider .slick-prev:before,
+  .slick-slider .slick-next:before {
+    font-size: 15px;
+  }
+  .searchcanvas.offcanvas {
+    padding: 0 10%;
+  }
+  .searchcanvas.offcanvas-top {
+    max-height: 62px;
+  }
+  .searchcanvas .offcanvas-header .btn-close {
+    top: 19px;
+  }
+  .openiconmenu {
+    margin-bottom: 5px;
+  }
+  .openiconmenu svg {
+    height: 20px;
+  }
+  #myTab .nav-link {
+    font-size: 14px;
+  }
+  #myTab .nav-link span img {
+    max-width: 30px !important;
+  }
+  .categoryTab .tabdiv .nav-tabs > li {
+    width: 30%;
+  }
+  .categoryTab .tabdiv .nav-tabs {
+    flex-wrap: inherit;
+    overflow-x: auto;
+    margin: 0 -10px;
+  }
+  /* --------------------- home page ------------------ */
+  .navbaricon li {
+    margin-left: 5px;
+  }
+  .mobile {
+    top: 2px;
+  }
+  .mobile .navbar-light .navbar-toggler {
+    padding-left: 0;
+  }
+  .banner-Text {
+    /*top: 12%;*/
+    /*margin-left: 35px;*/
+    /*max-width: 12%;*/
+  }
+  .banner-Text h2 {
+    font-size: 20px;
+  }
+  .banner-Text p {
+    margin: 5px 0;
+    font-size: 12px;
+    max-width: 75%;
+    margin-bottom: 8px;
+  }
+  .main-button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .deal_of_container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .price {
+    font-size: 14px;
+  }
+  .button-group {
+    opacity: 1;
+    top: 60%;
+    position: unset;
+  }
+  .button-group {
+    margin-bottom: 5px;
+  }
+  .button-group svg {
+    width: 25px;
+    height: 25px;
+    margin: 0 3px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+  }
+  .pro-heading h6 {
+    display: none;
+  }
+  .pro-heading a {
+    font-size: 14px;
+    display: block;
+  }
+  .shop_list_item .pro-heading a {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .heading strong {
+    font-size: 15px;
+  }
+  .heading h2 {
+    font-size: 22px;
+    margin-top: -15px;
+    margin-bottom: 5px;
+  }
+  .heading h2::before,
+  .heading h2::after {
+    bottom: -10px;
+  }
+  .headingimg {
+    top: auto;
+    bottom: -13px;
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+  }
+  .headingimg span:nth-child(1) {
+    padding: 0 5px !important;
+  }
+  .productCard {
+    padding: 5px;
+  }
+  .counterDeal {
+    margin: 0 3px;
+    width: 34px;
+    font-size: 14px;
+  }
+  .categTitleMB {
+    margin-bottom: 6px;
+  }
+  .banner img {
+    border-radius: 10px !important;
+  }
+  .tabdiv .nav-item {
+    padding: 0 8px !important;
+  }
+  .ser-t p {
+    max-width: 260px;
+  }
+  .specialPro .nav-link {
+    font-size: 15px !important;
+  }
+  .naturalProductText h5 {
+    font-size: 24px;
+  }
+  .naturalProductText h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+  .naturalProduct {
+    padding: 40px 0;
+  }
+
+  .service h6 {
+    font-size: 16px;
+  }
+  .categoryProductsBgColor {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .date {
+    padding: 4px 11px;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .f-20 {
+    font-size: 16px;
+  }
+  .main_text {
+    padding-top: 1px;
+    padding-bottom: 4px;
+  }
+  .first_footer .text-right {
+    text-align: center !important;
+  }
+  .first_footer {
+    padding: 15px 0;
+  }
+  .first_footer .input-group {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .fth_foo .item_name2 {
+    display: none;
+  }
+  .fth_foo {
+    margin-top: 0;
+  }
+  .foo_pay .fab,
+  .foo_pay .fas {
+    font-size: 22px;
+    margin-right: 7px;
+  }
+  .first_footer .form-control {
+    height: 37px;
+    font-size: 14px;
+  }
+  .first_footer .btn {
+    font-size: 14px;
+  }
+  .socials span {
+    height: 35px;
+    width: 35px;
+    padding-top: 4px;
+  }
+  .btn-primary {
+    padding-right: 0 !important;
+  }
+  .FooterVertical .btn {
+    top: -10px;
+  }
+  /* ---------------- scroll to top ----------------  */
+  .w_product_name a {
+    font-size: 14px;
+  }
+
+  /* ------------- shop ---------- */
+  .custom-select {
+    width: 100%;
+  }
+  .item.shop_list_item .description {
+    margin-bottom: 5px;
+  }
+  .shop_list_item .button-group svg {
+    width: 35px;
+    height: 35px;
+    margin-right: 12px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    margin-left: 0;
+  }
+  /* .............. Blog ...........  */
+  .left-blog-img {
+    width: 150px;
+  }
+  .bl_cat li {
+    padding: 0px 0;
+  }
+  .singleBlog .s_b_comment h2 {
+    font-size: 18px;
+  }
+  /* .............. end Blog ...........  */
+  /* ---------------- portfolio --------------- */
+  .port-list li {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  .port-menu {
+    margin-bottom: 0px;
+  }
+  .portfolio h1 {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  .port-title:after {
+    top: 28px;
+  }
+  /* ---------------- end portfolio --------------- */
+  /* ----------------------------- all categories -------------------- */
+  .firstcategory img {
+    padding: 0 20px !important;
+  }
+  /* .............. Aboutus  ...........  */
+  .about-text h4 {
+    font-size: 15px;
+  }
+  .about-text div {
+    margin-top: 3px;
+  }
+  .about-text p {
+    margin: 8px 0 !important;
+  }
+  .fw-bolder {
+    margin-bottom: 0;
+  }
+  .about_testimonials {
+    margin: 10px 0;
+  }
+  /* .............. end Aboutus  ...........  */
+  /* -------------- log in ------------------ */
+  .login,
+  #Registration {
+    width: 100%;
+  }
+  #emailHelp {
+    font-size: 11px;
+  }
+  .loginpage h3 {
+    font-size: 19px;
+  }
+  .login {
+    margin-top: 15px;
+  }
+  .login .form-control {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .login .forgot_password {
+    display: block;
+  }
+  /* -------------- end log in ------------------ */
+  /* -------------- product deatils page ------------------ */
+  .sp_product_detail h6 {
+    font-size: 14px;
+  }
+  .productDetails h3 {
+    font-size: 17px;
+    line-height: 15px;
+  }
+  .productPrice {
+    font-size: 26px;
+  }
+
+  .sp_text li {
+    font-size: 13px;
+  }
+  .productColor li {
+    width: 30px;
+    height: 30px;
+  }
+  .productDescription button {
+    font-size: 15px !important;
+  }
+  .productDetails hr {
+    margin: 8px 0;
+  }
+  .productsmalldescption span {
+    font-size: 13px;
+  }
+  .productColor li {
+    width: 23px;
+    height: 23px;
+  }
+  .totalProduct {
+    display: none;
+  }
+  /* -------------- end product deatils page ------------------ */
+  /* -------------------------------- check out -------------------------------- */
+  #checkout .accordion-header button {
+    padding: 10px 17px;
+    font-size: 15px;
+  }
+  #checkout .nav-tabs .nav-link {
+    padding-right: 8px;
+    font-size: 14px;
+  }
+  #checkout .mb_1rem {
+    margin-bottom: 5px !important;
+    margin-top: 8px !important;
+  }
+  #checkout label {
+    margin-bottom: 2px;
+  }
+  #checkout .form-control {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  #checkout .input-group .form-check-input {
+    margin-top: 0;
+  }
+  #checkout .main-button {
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+  #checkout .payment input {
+    margin-top: 7px;
+  }
+  #checkout .forgot_password {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  .final_payment {
+    margin-top: 15px;
+  }
+  .final_payment p {
+    font-size: 15px;
+  }
+  .final_payment .text-muted {
+    margin-bottom: 3px;
+  }
+  .final_payment span {
+    font-size: 12px;
+  }
+  /* -------------------------------- end check out -------------------------------- */
+  /* --------------------------- footer ------------------------------------ */
+  .footer a {
+    line-height: 8px;
+    font-size: 14px;
+  }
+  .item_name1 li a::after {
+    content: "|";
+    color: #fff;
+    margin: 0 6px;
+  }
+  /* --------------------------- end footer ------------------------------------ */
+}
+@media (min-width: 320px) and (max-width: 400px) {
+  .banner-Text {
+    /*top: 20%;*/
+    /*margin-left: 35px;*/
+    /*max-width: 12%;*/
+  }
+  .banner-Text h2 {
+    font-size: 20px;
+  }
+  .banner-Text p {
+    display: none;
+  }
+  .counterDeal {
+    margin: 0 1px;
+    padding: 0 2px;
+    font-size: 12px;
+    width: 25px;
+  }
+  .service h6 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .ser-t p {
+    max-width: 175px;
+  }
+}

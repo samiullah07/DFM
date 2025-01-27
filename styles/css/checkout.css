@@ -1,0 +1,94 @@
+.checkout .nav-tabs {
+  border-bottom: 0px;
+}
+
+.checkout .nav-tabs .nav-link.active {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.checkout li button {
+  background-color: transparent;
+}
+
+.checkout .nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: transparent;
+}
+
+.checkout li button:focus {
+  outline: 0;
+}
+
+.checkout li button {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+}
+
+.checkout .card {
+  border: 0;
+}
+
+.checkout li button:focus-visible {
+  outline: 0;
+}
+.checkout .accordion-header button {
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.checkout .accordion-header button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.checkout .accordion-header button:hover {
+  color: #6d9900 !important;
+}
+.checkout .accordion-header {
+  border-bottom: 1px solid #dee2e6;
+}
+.checkout .accordion-button:not(.collapsed) {
+  color: #212529;
+  background-color: transparent;
+}
+
+#checkout label {
+  font-size: 12px;
+}
+
+#checkout .mb_1rem {
+  margin-bottom: 1rem;
+}
+
+#checkout .checkout-check {
+  margin-left: 6px;
+  font-size: 12px;
+}
+
+.checkout-signin label {
+  font-size: 12px;
+}
+
+.checkout-signin .forgot_password a {
+  font-weight: 600 !important;
+}
+
+.checkout .checkout-check-sign {
+  margin-left: 6px;
+  font-size: 12px;
+}
+
+.shippingmethod input {
+  margin-top: 4px;
+}
+
+.payment input {
+  margin-top: 4px;
+}
+.final_payment {
+  position: sticky;
+  top: 87px;
+}

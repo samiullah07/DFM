@@ -1,0 +1,171 @@
+.error {
+  overflow: hidden;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/diasspora-94216.appspot.com/o/HomeBanner%2Ferrorbg.jpg?alt=media&token=e258464e-2e39-4230-8829-3be76b870fcforbg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  background-color: #fff;
+  height: 100vh;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+}
+.error .error-text {
+  max-width: 663px;
+  margin-right: 49%;
+}
+.error-text h2 {
+  font-size: 70px;
+  margin-bottom: 12px;
+}
+.error-text h3 {
+  font-size: 50px;
+  font-weight: 600;
+  font-size: 40px;
+}
+.error-text h6 {
+  color: #6d9900;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.error-text p {
+  font-size: 20px;
+  line-height: 35px;
+  margin: 30px 0;
+}
+.error button {
+  background-color: #6d9900;
+  padding: 10px 25px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* ----------- error ------------ */
+  .error .error-text {
+    max-width: 45%;
+  }
+  .error-text h2 {
+    font-size: 45px;
+    margin-bottom: 5px;
+  }
+  .error-text h3 {
+    font-size: 30px;
+  }
+  .error-text h6 {
+    font-size: 37px;
+    margin-bottom: 0px;
+  }
+  .error-text p {
+    font-size: 15px;
+    line-height: 23px;
+    margin: 12px 0;
+  }
+  .error button {
+    padding: 10px 19px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .error .error-text {
+    max-width: 45%;
+  }
+  .error-text h2 {
+    font-size: 45px;
+    margin-bottom: 5px;
+  }
+  .error-text h3 {
+    font-size: 30px;
+  }
+  .error-text h6 {
+    font-size: 37px;
+    margin-bottom: 0px;
+  }
+  .error-text p {
+    font-size: 15px;
+    line-height: 23px;
+    margin: 12px 0;
+  }
+  .error button {
+    padding: 10px 19px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .error .error-text {
+    max-width: 51%;
+    margin-right: 40%;
+  }
+  .error-text h2 {
+    font-size: 45px;
+    margin-bottom: 5px;
+  }
+  .error-text h3 {
+    font-size: 30px;
+  }
+  .error-text h6 {
+    font-size: 35px;
+    margin-bottom: 0px;
+  }
+  .error-text p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 7px 0;
+  }
+  .error button {
+    padding: 10px 19px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .error .error-text {
+    max-width: 51%;
+    margin-right: 44%;
+  }
+  .error-text h2 {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  .error-text h3 {
+    font-size: 25px;
+  }
+  .error-text h6 {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+  .error-text p {
+    font-size: 15px;
+    line-height: 27px;
+    margin: 5px 0;
+  }
+  .error button {
+    padding: 6px 11px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  /* ----------- error ------------ */
+  .error .error-text {
+    max-width: 51%;
+    margin-right: 40%;
+  }
+  .error-text h2 {
+    font-size: 32px;
+    margin-bottom: 0px;
+  }
+  .error-text h3 {
+    font-size: 19px;
+  }
+  .error-text h6 {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+  .error-text p {
+    display: none;
+  }
+  .error button {
+    padding: 5px 8px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
